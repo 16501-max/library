@@ -29,18 +29,31 @@ void book::borrowBook()
 {
     if (availability == true)
     {
+        cout << endl;
+        cout << endl;
         cout << "You successfully borrowed the book " << title << endl;
+        cout << endl;
+        cout << endl;
         availability = false;
     }
     else
     {
+        cout << endl;
+        cout << endl;
         cout << "The book " << title << " is allready borrowed" << endl;
+        cout << endl;
+        cout << endl;
     }
 }
 
 void book::returnBook()
 {
     availability = true;
+    cout << endl;
+    cout << endl;
     cout << "You have returned the book " << title << " sucessfully" << endl;
+    cout << endl;
     cout << "Thank you!";
+    cout << endl;
+    cout << endl;
 }
