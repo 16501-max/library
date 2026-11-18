@@ -1,0 +1,56 @@
+// """
+
+// loosely
+
+// init array 5 books
+
+// prompt user for ISBN  or exit 0
+// if not avialable display error , " No book found or not a valid ISBN " -> "Please enter a valid ISBn"
+// if user input valid 
+// check if isbn matches
+// if matches then massage Book found x details 
+// switch availability and back
+
+
+
+
+
+
+// cool string menu
+
+
+
+
+
+//     cout << " ***************************************************************************************"<< endl;
+//     cout << " *                                                                                     *"<< endl;
+//     cout << " *                                                                                     * "<< endl;
+//     cout << " *-*-*-*-*-*-*-*-*-*-*-*-*-*-*      L  I  B  R  A  R  Y      *-*-*-*-*-*-*-*-*-*-*-*-*-* "<< endl;
+//     cout << " *                                                                                     * "<< endl;
+//     cout << " *                                                                                     * "<< endl;
+//     cout << " ***************************************************************************************"<< endl;
+//     cout << " "<< endl;
+//     cout << " "<< endl;
+//     cout << " "<< endl;
+//     cout << " ***************************************************************************************"<< endl;
+//     cout << " *                                                                                     * "<< endl;
+//     cout << " *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*       M E N U         *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* " << endl;
+//     cout << " *                                                                                     * "<< endl;
+//     cout << " ***************************************************************************************"<< endl;
+//     cout << " *                                                                                     * "<< endl;
+//     cout << " *                                                                                     * "<< endl;
+//     cout << " *    Search and Display Book       ------- [Type 1 and Enter]                         *" << endl;
+//     cout << " *    Borrow book                   ------- [Type 2 and Enter]                         *"<< endl;
+//     cout << " *    Return book                   ------- [Type 3 and Enter]                         *"<< endl;
+//     cout << " *    Change book details           ------- [Type 4 and Enter]                         *"<< endl;
+//     cout << " *    Quit Programm                 ------- [Type 0 and Enter]                         *"<< endl;
+//     cout << " *                                                                                     * "<< endl;
+//     cout << " *                                                                                     * "<< endl;
+//     cout << " ***************************************************************************************"<< endl;
+//     cout << " "<< endl;
+
+
+   
+    
+
+//     """
