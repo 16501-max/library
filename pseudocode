@@ -1,3 +1,5 @@
+
+
 // """
 
 // loosely
@@ -65,7 +67,121 @@
 // {"Altered Carbon", "Richard K. Morgan", "9780345457684", true, "2026-08-09"},
 // {"Ready Player One", "Ernest Cline", "9780307887443", false, "2026-11-02"}
 
-// #include <cstdlib>
 
-// system("cls");   // Windows
-// system("clear"); // macOS / Linux
+
+
+
+    //     PSEUDO CODE FOR SORTING THE LIST OF BOOKS 
+
+
+    //     // init books
+    // // index into array and populate the book with setBookDetail method
+    // listOfBooks[0].setBookDetails("Neuromancer", "William Gibson", "9780441569595", true, "2026-03-12");
+    // listOfBooks[1].setBookDetails("Snow Crash", "Neal Stephenson", "9780553380958", true, "2026-06-21");
+    // listOfBooks[2].setBookDetails("Do Androids Dream of Electric Sheep?", "Philip K. Dick", "9780345404473", false, "2026-01-17");
+    // listOfBooks[3].setBookDetails("Altered Carbon", "Richard K. Morgan", "9780345457684", true, "2026-08-09");
+    // listOfBooks[4].setBookDetails("Ready Player One", "Ernest Cline", "9780307887443", false, "2026-11-02");
+
+
+
+    // // ----- sort the book list based on ISBN
+    
+
+    // take isbn from pos 2 compare with pos1
+    // if pos2 is smaller swap()
+    // compare pos3 with 2 if smaller swap()
+    //compare with previous pos if smaller swap
+
+    //increase index again compare pos4 with 3 if smaller swap 
+    //so allways compare x with y and swap as long as index-1 is bigger it allwasy becomes x and [+1]allwasy  y
+    //careful on mutability worst case use & reassign to modify original variable 
+
+
+
+
+
+
+
+
+
+    //insertion sort pseudo code
+
+    // grab second element 
+    // compare to first element
+    // if smaller 
+    // swap 
+    // if still smaller then previous 
+    //swap until bigger
+    
+
+
+///// #include<iostream>
+
+// using namespace std;
+
+// int main()
+// {
+//     int array[5];
+//     array[0] = 3;
+//     array[1] = 1;
+//     array[2] = 7;
+//     array[3] = 2;
+//     array[4] = 4;
+
+
+//     cout << "array start"<<endl;
+//     for (int ind = 0; ind < 5; ind++)
+//         {
+//             cout << array[ind] << " ";
+//         }
+
+
+
+//     int len = 5;
+
+//     for (int i=0;i<(len-1);i++)
+//         {
+//             int j = i+1;
+//             while (j > 0 && array[j]< array[j-1])
+//                 {
+//                     //swap
+//                     int temp;
+//                     temp = array[j-1];
+//                     array[j-1] = array[j];
+//                     array[j] = temp;
+//                     j = j-1;
+//                 }
+                
+//         }
+
+//     cout << endl;
+//     cout << "array end " << endl;
+//     for (int ind = 0; ind < 5; ind++)
+//         {
+//             cout << array[ind] << " ";
+//         }
+    
+// }
+
+//
+
+
+
+
+
+    //final insertion sort
+     
+    // for (int i=0;i<(len-1);i++)
+    //     {
+    //         int j = i+1;
+    //         while (j > 0 && listOfBooks[j].isbn < listOfBooks[j-1].isbn )
+    //             {
+    //                 //swap
+    //                 string temp;
+    //                 temp = listOfBooks[j-1];
+    //                 listOfBooks[j-1] = listOfBooks[j];
+    //                 listOfBooks[j] = temp;
+    //                 j = j-1;
+    //             }
+                
+    //     }

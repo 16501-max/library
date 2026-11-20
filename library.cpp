@@ -22,6 +22,23 @@ int main()
 
 
     // ----- sort the book list based on ISBN
+
+    int len = 5;
+
+    for (int i=0;i<(len-1);i++)
+        {
+            int j = i+1;
+            while (j > 0 && listOfBooks[j].isbn < listOfBooks[j-1].isbn )
+                {
+                    //swap
+                    book temp;
+                    temp = listOfBooks[j-1];
+                    listOfBooks[j-1] = listOfBooks[j];
+                    listOfBooks[j] = temp;
+                    j = j-1;
+                }
+                
+        }
     
 
     //  -------------- main -----------
@@ -180,7 +197,7 @@ int main()
 
 
         }
-        else if (userResponse == "4")
+        else if (userResponse == "0")
         {
             cout << endl;
             cout << "Thank you for visiting the library..." << endl;
